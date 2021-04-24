@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "automatica",
+  "version": "${version}",
+
+  "name": "Automatica",
+  "description": "A mod about stuff lol",
+  "authors": [
+    "Technisha"
+  ],
+  "contact": {
+    "sources": "https://github.com/Technisha/Automatica"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/automatica/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.technisha.automatica.AutomaticaMain"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
